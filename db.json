@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "title": "Programming",
+      "id": "8cfb",
+      "description": "js"
+    },
+    {
+      "id": "d28b",
+      "title": "coding",
+      "description": "ps"
+    },
+    {
+      "id": "6c24",
+      "title": "mahmoud",
+      "description": "tarek"
+    }
+  ],
+  "users": []
+}
