@@ -81,6 +81,7 @@ function deleteNote(id) {
   fetch(`${apiURL}/${id}`, {
     method: "DELETE",
   });
+  readNotes();
 }
 
 async function updateNoteTilte(id) {
@@ -95,6 +96,7 @@ async function updateNoteTilte(id) {
       title: val,
     }),
   });
+  readNotes();
 }
 
 async function updateNoteDesc(id) {
